@@ -4,14 +4,15 @@ A modern, highly-responsive design agency homepage built for the Next.js Develop
 
 ## Live Project Links
 
-- **Live Deployment**: [Insert Vercel/Netlify Link Here]
-- **GitHub Repository**: [Insert GitHub Link Here]
+- **Live Deployment**: https://shadow-tech.vercel.app/
+- **GitHub Repository**: https://github.com/Harish-Dev-777/shadow-tech
 
 ## Tech Stack
 
 - **Framework**: Next.js 15 (App Router)
 - **Styling**: Tailwind CSS v4 and shadcn/ui
 - **Theming**: `next-themes` (System / Light / Dark modes)
+- **animations**: GSAP
 - **Icons**: Lucide React & Custom SVG Icons
 - **Language**: TypeScript
 
