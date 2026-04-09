@@ -2,7 +2,7 @@ import Contact from "@/sections/Contact";
 import Hero from "@/sections/Hero";
 import Portfolio from "@/sections/Portfolio";
 import Services from "@/sections/Services";
-import Footer from "@/sections/Footer";
+import Footer from "@/components/web/Footer";
 
 export default function Home() {
   return (
@@ -11,7 +11,6 @@ export default function Home() {
       <Services />
       <Portfolio />
       <Contact />
-      <Footer />
     </main>
   );
 }
