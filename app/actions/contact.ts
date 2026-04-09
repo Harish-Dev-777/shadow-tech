@@ -24,13 +24,9 @@ export async function submitContactForm(formData: FormData) {
     };
   }
 
-  // Simulated backend delay
   await new Promise((resolve) => setTimeout(resolve, 1500));
 
   console.log("Form Submission Received:", validated.data);
-
-  // In a real app, you would save to database here
-  // e.g., await db.contacts.create({ data: validated.data })
 
   return {
     success: true,
