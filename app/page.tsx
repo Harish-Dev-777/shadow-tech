@@ -1,7 +1,17 @@
+import Contact from "@/sections/Contact";
+import Hero from "@/sections/Hero";
+import Portfolio from "@/sections/Portfolio";
+import Services from "@/sections/Services";
+import Footer from "@/sections/Footer";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <main className="flex flex-col">
+      <Hero />
+      <Services />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </main>
   );
 }
