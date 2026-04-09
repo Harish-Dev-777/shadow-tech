@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Shadow Tech | Premium Design Agency",
     description:
       "Combining creativity with cutting-edge technology to build powerful Next.js applications.",
-    url: "https://shadowtechagency.com",
+    url: "https://shadow-tech.vercel.app",
     siteName: "Shadow Tech",
     locale: "en_US",
     type: "website",
